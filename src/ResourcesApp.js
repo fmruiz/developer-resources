@@ -3,6 +3,7 @@ import React from 'react';
 import NavMenu from './components/NavMenu';
 import ResourcesMenu from './components/ResourcesMenu';
 import ResourcesContainer from './components/ResourcesContainer';
+import Footer from './components/Footer';
 
 const ResourcesApp = () => {
     return (
@@ -15,6 +16,9 @@ const ResourcesApp = () => {
 
             {/* resources container */}
             <ResourcesContainer />
+
+            {/* footer */}
+            <Footer />
         </>
     )
 };
