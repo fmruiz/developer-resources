@@ -3,7 +3,7 @@ import React from 'react';
 import javascript from '../img/javascript.png';
 import ux from '../img/ux.png';
 import youtube from '../img/youtube.png';
-import twitch from '../img/twitch.png'
+import twitch from '../img/twitch.png';
 
 const ResourcesMenu = () => {
     return (
@@ -13,7 +13,7 @@ const ResourcesMenu = () => {
                     <div className="javascript pt-5">
                         <div className="d-flex align-items-center justify-content-center">
                             <img className="resources-logo shadow" src={ javascript } />
-                            <h3 className="ml-3">Programming Languages</h3>
+                            <h3 className="ml-3">Javascript Development</h3>
                         </div>
                         <p className="mt-3 text-center">
                             There are a ton of Resources & Tools out there that promise <br/>
@@ -37,7 +37,7 @@ const ResourcesMenu = () => {
                 </div>
 
                 <div className="d-flex justify-content-around">
-                    <div className="youtube pt-5">
+                    <div className="youtube py-5">
                         <div className="d-flex align-items-center justify-content-center">
                             <img className="resources-logo shadow" src={ youtube } />
                             <h3 className="ml-3">YouTube Channels for Devs</h3>
@@ -49,7 +49,7 @@ const ResourcesMenu = () => {
                         </p>
                     </div>
 
-                    <div className="twitch pt-5">
+                    <div className="twitch py-5">
                         <div className="d-flex align-items-center justify-content-center">
                             <img className="resources-logo shadow" src={ twitch } />
                             <h3 className="ml-3">Streaming Channels for Devs</h3>

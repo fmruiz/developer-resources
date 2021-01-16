@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+  user-select: none;
 }
 
 /* =============================== */
 /* NAV MENU */
 /* =============================== */
+.banner {
+  filter: saturate(180%);
+  position: absolute;
+  z-index: 0;
+}
+
 .links {
   font-size: 1.5rem;
   position: relative;
@@ -61,10 +68,6 @@
   color: white;
 } */
 
-.banner {
-  position: absolute;
-  z-index: 0;
-}
 /* =============================== */
 /* NAV MENU */
 /* =============================== */
@@ -113,8 +116,30 @@
   font-size: 1.3rem;
   font-weight: bold;
 }
+/* =============================== */
+/* RESOURCES MENU */
+/* =============================== */
+/* =============================== */
+/* PROGRAMMING LANGUAGES */
+/* =============================== */
+.programming-container {
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
 
+.programming-container h2 {
+  font-weight: bold;
+}
 
+.card {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card h4 {
+  font-weight: bold;
+}
 
 /* =============================== */
 /* 576PX MEDIA QUERYS */

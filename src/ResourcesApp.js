@@ -2,6 +2,7 @@ import React from 'react';
 
 import NavMenu from './components/NavMenu';
 import ResourcesMenu from './components/ResourcesMenu';
+import ResourcesContainer from './components/ResourcesContainer';
 
 const ResourcesApp = () => {
     return (
@@ -11,6 +12,9 @@ const ResourcesApp = () => {
 
             {/* resources menu */}
             <ResourcesMenu />
+
+            {/* resources container */}
+            <ResourcesContainer />
         </>
     )
 };
