@@ -26,7 +26,7 @@ const ResourcesMenu = () => {
                     <div className="design pt-5">
                         <div className="d-flex align-items-center justify-content-center">
                             <img className="resources-logo shadow" src={ ux } />
-                            <h3 className="ml-3">User Experience / User Design</h3>
+                            <h3 className="ml-3">User Interface/User Experience</h3>
                         </div>
                         <p className="mt-3 text-center">
                         Constantly updated online <strong>UI/UX</strong> design tools/resources library for<br/> 

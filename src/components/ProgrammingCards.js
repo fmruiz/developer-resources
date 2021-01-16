@@ -7,7 +7,7 @@ import eloquentJS from '../img/javascript-img/3.jpeg';
 const ProgrammingCards = () => {
     return (
         <>
-            <div className="programming-container">
+            <div className="programming-container mb-5">
                 <h2 className="text-center">Javascript Development</h2>
 
                 <div className="d-flex mt-4">

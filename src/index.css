@@ -135,9 +135,35 @@
 .card {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
+  transform: scale(1);
+  transition: transform .5s ease;
+}
+
+.card img {
+  filter: saturate(130%);
 }
 
 .card h4 {
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform .5s ease;
+}
+/* =============================== */
+/* PROGRAMMING LANGUAGES */
+/* =============================== */
+/* =============================== */
+/* UX/UI CONTAINER */
+/* =============================== */
+.ux-container {
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
+
+.ux-container h2 {
   font-weight: bold;
 }
 
