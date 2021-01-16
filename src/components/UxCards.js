@@ -7,7 +7,7 @@ import googleFonts from '../img/ux-img/ux-3.jpeg';
 const UxCards = () => {
     return (
         <>
-            <div className="ux-container mt-5">
+            <div className="ux-container">
                 <h2 className="text-center">User Interface / User Experience</h2>
 
                 <div className="d-flex mt-4">
@@ -24,7 +24,7 @@ const UxCards = () => {
                     </div>
 
                     <div class="card shadow mx-4">
-                        <a href="https://1loc.dev/" target="_blank"><img class="card-img-top" src={ colorMaterial } alt="utilitiesJS"/></a>   
+                        <a href="https://material.io/resources/color/" target="_blank"><img class="card-img-top" src={ colorMaterial } alt="utilitiesJS"/></a>   
                         <div class="card-body text-center">
                             <h4 class="card-title">Color Tool - Material Design</h4>
                             <p class="card-text">
@@ -36,7 +36,7 @@ const UxCards = () => {
                     </div>
 
                     <div class="card shadow mx-4"> 
-                        <a href="https://eloquentjavascript.net/" target="_blank"><img class="card-img-top" src={ googleFonts } alt="eloquentJS"/></a>  
+                        <a href="https://fonts.google.com/" target="_blank"><img class="card-img-top" src={ googleFonts } alt="eloquentJS"/></a>  
                         <div class="card-body text-center">
                             <h4 class="card-title">Google Fonts</h4>
                             <p class="card-text">

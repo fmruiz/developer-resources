@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProgrammingCards from './ProgrammingCards';
 import UxCards from './UxCards';
+import YoutubeCards from './YoutubeCards';
 
 const ResourcesContainer = () => {
     return (
@@ -11,6 +12,9 @@ const ResourcesContainer = () => {
 
             {/* UX/UI Design */}
             <UxCards />
+
+            {/* youtube channels cards */}
+            <YoutubeCards />
         </>
     )
 }
