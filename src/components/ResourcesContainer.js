@@ -3,6 +3,7 @@ import React from 'react';
 import ProgrammingCards from './ProgrammingCards';
 import UxCards from './UxCards';
 import YoutubeCards from './YoutubeCards';
+import TwitchCards from './TwitchCards';
 
 const ResourcesContainer = () => {
     return (
@@ -15,6 +16,9 @@ const ResourcesContainer = () => {
 
             {/* youtube channels cards */}
             <YoutubeCards />
+
+            {/* twitch channels cards */}
+            <TwitchCards />
         </>
     )
 }

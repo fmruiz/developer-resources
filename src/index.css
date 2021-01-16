@@ -184,6 +184,26 @@
   font-weight: bold;
 }
 /* =============================== */
+/* YOUTUBE CONTAINER */
+/* =============================== */
+/* =============================== */
+/* TWITCH CONTAINER */
+/* =============================== */
+
+/* =============================== */
+/* TWITCH CONTAINER */
+/* =============================== */
+.twitch-container {
+  margin-top: 100px;
+  position: relative;
+  top: 400px;
+  z-index: 1;
+}
+
+.twitch-container h2 {
+  font-weight: bold;
+}
+/* =============================== */
 /* 576PX MEDIA QUERYS */
 /* =============================== */
 @media (max-width: 576px) {
